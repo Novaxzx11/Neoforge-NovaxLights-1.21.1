@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "novaxlights:block/light_block"
+    }
+  }
+}

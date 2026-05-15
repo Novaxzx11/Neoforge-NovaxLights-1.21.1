@@ -1,5 +1,8 @@
 package com.novaxzx.novaxlights;
 
+import com.novaxzx.novaxlights.block.ModBlocks;
+import com.novaxzx.novaxlights.item.ModCreativeModeTabs;
+import com.novaxzx.novaxlights.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -46,6 +49,12 @@ public class NovaxLights {
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
