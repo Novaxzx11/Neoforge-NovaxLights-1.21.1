@@ -1,0 +1,13 @@
+{
+  "itemGroup.novaxlights": "Example Mod Tab",
+  "block.novaxlights.example_block": "Example Block",
+  "item.novaxlights.example_item": "Example Item",
+
+  "novaxlights.configuration.title": "Novax Lights Configs",
+  "novaxlights.configuration.section.novaxlights.common.toml": "Novax Lights Configs",
+  "novaxlights.configuration.section.novaxlights.common.toml.title": "Novax Lights Configs",
+  "novaxlights.configuration.items": "Item List",
+  "novaxlights.configuration.logDirtBlock": "Log Dirt Block",
+  "novaxlights.configuration.magicNumberIntroduction": "Magic Number Text",
+  "novaxlights.configuration.magicNumber": "Magic Number"
+}
