@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.novaxlights.novax_lights"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.LIGHT_BLOCK);
+                        output.accept(ModItems.LIGHTEDITOR);
                     }).build());
 
     public static void register(IEventBus eventBus) {

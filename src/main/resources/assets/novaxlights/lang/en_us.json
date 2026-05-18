@@ -1,5 +1,9 @@
 {
   "block.novaxlights.light_block": "Light Block",
+  "item.novaxlights.light_editor": "Light Editor",
 
-  "creativetab.novaxlights.novax_lights": "Novax Lights"
+  "creativetab.novaxlights.novax_lights": "Novax Lights",
+
+  "tooltip.novaxlights.light_block.tooltip": "\n§8Click with a dye to change the color of the light.\n§8Use the Light Editor to change the radius of the light.\n§8The intensity of the light is based on the redstone signal.\n",
+  "tooltip.novaxlights.light_editor.tooltip": "\n§8Primary hand: Increase the radius of the light.\n§8Secondary Hand: Decrease the radius of the light.\n"
 }

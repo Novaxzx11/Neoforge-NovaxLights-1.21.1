@@ -1,0 +1,9 @@
+  {
+  "block.novaxlights.light_block": "Bloco de Luz",
+  "item.novaxlights.light_editor": "Editor de Luz",
+
+  "creativetab.novaxlights.novax_lights": "Novax Luzes",
+
+  "tooltip.novaxlights.light_block.tooltip": "\n§8Clique com um corante para pintar a luz.\n§8Use o Light Editor para mudar o raio.\n§8A intensidade da luz muda de acordo com\n§8o sinal de redstone.\n",
+  "tooltip.novaxlights.light_editor.tooltip": "\n§8Mão Primária: Aumenta o raio da luz.\n§8Mão Secundária: Diminui o raio da luz.\n"
+}
