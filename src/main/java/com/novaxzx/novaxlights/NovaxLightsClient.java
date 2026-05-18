@@ -25,7 +25,5 @@ public class NovaxLightsClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        NovaxLights.LOGGER.info("HELLO FROM CLIENT SETUP");
-        NovaxLights.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
