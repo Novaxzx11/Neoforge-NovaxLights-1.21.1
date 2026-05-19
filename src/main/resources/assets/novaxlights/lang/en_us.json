@@ -1,9 +1,21 @@
 {
-  "block.novaxlights.light_block": "Light Block",
-  "item.novaxlights.light_editor": "Light Editor",
+  "block.novaxlights.point_light_block": "Point Light Block",
+  "block.novaxlights.area_light_block": "Area Light Block",
+  "item.novaxlights.point_light_editor": "Radius Editor",
+  "item.novaxlights.area_light_editor": "Angle Editor",
 
   "creativetab.novaxlights.novax_lights": "Novax Lights",
 
-  "tooltip.novaxlights.light_block.tooltip": "\n§8Click with a dye to change the color of the light.\n§8Use the Light Editor to change the radius of the light.\n§8The intensity of the light is based on the redstone signal.\n",
-  "tooltip.novaxlights.light_editor.tooltip": "\n§8Primary hand: Increase the radius of the light.\n§8Secondary Hand: Decrease the radius of the light.\n"
+  "config.novaxlights.max_distance": "Max Distance",
+  "config.novaxlights.max_angle": "Max Angle",
+  "config.novaxlights.angle_editor_value": "Angle Editor Value",
+
+  "config.novaxlights.max_distance.tooltip": "The maximum radius of the light.\nMinimum: 1.",
+  "config.novaxlights.max_angle.tooltip": "The maximum angle of the light.\nMinimum: 0.1.",
+  "config.novaxlights.angle_editor_value.tooltip": "The value changed by the Angle Editor.\nMinimum: 0.001.",
+
+  "tooltip.novaxlights.point_light_block.tooltip": "\n§8Circular light.\n§8Click with a dye to change the color of the light.\n§8Use the Light Editor to change the radius of the light.\n§8The intensity of the light is based on the redstone signal.\n",
+  "tooltip.novaxlights.area_light_block.tooltip": "\n§8Angled light.\n§8Click with a dye to change the color of the light.\n§8Use the Light Editor to change the radius of the light.\n§8The intensity of the light is based on the redstone signal.\n",
+  "tooltip.novaxlights.point_light_editor.tooltip": "\n§8Primary hand: Increase the radius of the light.\n§8Secondary Hand: Decrease the radius of the light.\n",
+  "tooltip.novaxlights.area_light_editor.tooltip": "\n§8Primary hand: Increase the angle of the light.\n§8Secondary Hand: Decrease the angle of the light.\n"
 }

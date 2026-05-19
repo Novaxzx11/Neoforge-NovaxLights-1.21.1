@@ -17,11 +17,13 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> NOVAX_LIGHTS_TAB = CREATIVE_MODE_TAB.register("novax_lights_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModBlocks.LIGHT_BLOCK))
+                    .icon(() -> new ItemStack(ModBlocks.POINT_LIGHT_BLOCK))
                     .title(Component.translatable("creativetab.novaxlights.novax_lights"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.LIGHT_BLOCK);
-                        output.accept(ModItems.LIGHTEDITOR);
+                        output.accept(ModBlocks.POINT_LIGHT_BLOCK);
+                        output.accept(ModBlocks.AREA_LIGHT_BLOCK);
+                        output.accept(ModItems.POINTLIGHTEDITOR);
+                        output.accept(ModItems.AREALIGHTEDITOR);
                     }).build());
 
     public static void register(IEventBus eventBus) {

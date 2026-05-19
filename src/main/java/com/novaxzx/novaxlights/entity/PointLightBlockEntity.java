@@ -1,5 +1,6 @@
 package com.novaxzx.novaxlights.entity;
 
+import com.novaxzx.novaxlights.Config;
 import com.novaxzx.novaxlights.block.ModBlocks;
 import foundry.veil.api.client.render.light.data.PointLightData;
 import foundry.veil.api.client.render.light.renderer.LightRenderHandle;
@@ -12,7 +13,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import foundry.veil.api.client.render.VeilRenderSystem;
 
-public class LightBlockEntity extends BlockEntity {
+public class PointLightBlockEntity extends BlockEntity {
 
     private PointLightData light;
     private LightRenderHandle<PointLightData> handle;
@@ -22,8 +23,8 @@ public class LightBlockEntity extends BlockEntity {
     private float blue = 1.0f;
     private float distance = 15.0f;
 
-    public LightBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntities.LIGHT_BE.get(), pos, state);
+    public PointLightBlockEntity(BlockPos pos, BlockState state) {
+        super(ModBlockEntities.POINT_LIGHT_BE.get(), pos, state);
     }
 
     @Override
@@ -70,6 +71,8 @@ public class LightBlockEntity extends BlockEntity {
 
             light.setRadius(distance);
 
+            light.setOcclusionEnabled(true);
+
             light.setPosition(
                     worldPosition.getX() + 0.5,
                     worldPosition.getY() + 0.5,
@@ -114,7 +117,7 @@ public class LightBlockEntity extends BlockEntity {
             distance += 1.0f;
         }
 
-        distance = Math.max(0.0f, Math.min(16.0f, distance));
+        distance = Math.max(0.0f, Math.min(Config.MAX_DISTANCE.get(), distance));
 
         if(light != null) {
             light.setRadius(distance);
@@ -142,7 +145,7 @@ public class LightBlockEntity extends BlockEntity {
 
         light.setRadius(distance);
 
-        int power = getBlockState().getValue(ModBlocks.LightBlock.POWER);
+        int power = getBlockState().getValue(ModBlocks.PointLightBlock.POWER);
 
         float brightness = power / 15.0f;
 

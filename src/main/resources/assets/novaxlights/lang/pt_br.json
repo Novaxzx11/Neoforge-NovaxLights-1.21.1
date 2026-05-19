@@ -1,9 +1,22 @@
   {
-  "block.novaxlights.light_block": "Bloco de Luz",
-  "item.novaxlights.light_editor": "Editor de Luz",
+  "block.novaxlights.point_light_block": "Bloco de Luz Pontual",
+  "block.novaxlights.area_light_block": "Bloco de Luz Ângular",
+  "item.novaxlights.point_light_editor": "Editor de Distância",
+  "item.novaxlights.area_light_editor": "Editor de Ângulo",
 
   "creativetab.novaxlights.novax_lights": "Novax Luzes",
 
-  "tooltip.novaxlights.light_block.tooltip": "\n§8Clique com um corante para pintar a luz.\n§8Use o Light Editor para mudar o raio.\n§8A intensidade da luz muda de acordo com\n§8o sinal de redstone.\n",
-  "tooltip.novaxlights.light_editor.tooltip": "\n§8Mão Primária: Aumenta o raio da luz.\n§8Mão Secundária: Diminui o raio da luz.\n"
+  "config.novaxlights.max_distance": "Distância Máxima",
+  "config.novaxlights.max_angle": "Ângulo Máximo",
+  "config.novaxlights.angle_editor_value": "Valor do Editor de Ângulo",
+
+  "config.novaxlights.max_distance.tooltip": "O raio máximo da luz.\nMínimo: 1.",
+  "config.novaxlights.max_angle.tooltip": "O ângulo máximo da luz.\nMínimo: 0.1.",
+  "config.novaxlights.angle_editor_value.tooltip": "O valor alterado pelo Editor de Ângulo.\nMínimo: 0.001.",
+
+
+  "tooltip.novaxlights.point_light_block.tooltip": "\n§8Luz Circular.\n§8Clique com um corante para pintar a luz.\n§8Use o Light Editor para mudar o raio.\n§8A intensidade da luz muda de acordo com\n§8o sinal de redstone.\n",
+  "tooltip.novaxlights.area_light_block.tooltip": "\n§8Luz Ângular.\n§8Clique com um corante para pintar a luz.\n§8Use o Light Editor para mudar o raio.\n§8A intensidade da luz muda de acordo com\n§8o sinal de redstone.\n",
+  "tooltip.novaxlights.point_light_editor.tooltip": "\n§8Mão Primária: Aumenta o raio da luz.\n§8Mão Secundária: Diminui o raio da luz.\n",
+  "tooltip.novaxlights.area_light_editor.tooltip": "\n§8Mão Primária: Aumenta o ângulo da luz.\n§8Mão Secundária: Diminui o ângulo da luz.\n"
 }
