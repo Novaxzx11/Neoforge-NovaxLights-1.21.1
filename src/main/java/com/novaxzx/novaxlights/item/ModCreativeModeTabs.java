@@ -22,8 +22,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.POINT_LIGHT_BLOCK);
                         output.accept(ModBlocks.AREA_LIGHT_BLOCK);
-                        output.accept(ModItems.POINTLIGHTEDITOR);
-                        output.accept(ModItems.AREALIGHTEDITOR);
+                        output.accept(ModItems.LIGHTEDITOR);
+                        output.accept(ModItems.FLASHLIGHT);
                     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -1,22 +1,45 @@
-  {
+{
   "block.novaxlights.point_light_block": "Bloco de Luz Pontual",
   "block.novaxlights.area_light_block": "Bloco de Luz Ângular",
-  "item.novaxlights.point_light_editor": "Editor de Distância",
-  "item.novaxlights.area_light_editor": "Editor de Ângulo",
+  "item.novaxlights.light_editor": "Editor de Luz",
+  "item.novaxlights.flashlight": "Lanterna",
 
   "creativetab.novaxlights.novax_lights": "Novax Luzes",
 
   "config.novaxlights.max_distance": "Distância Máxima",
   "config.novaxlights.max_angle": "Ângulo Máximo",
-  "config.novaxlights.angle_editor_value": "Valor do Editor de Ângulo",
+  "config.novaxlights.max_brightness": "Intensidade Máxima",
+  "config.novaxlights.max_x_size": "Tamanho máximo do X",
+  "config.novaxlights.max_y_size": "Tamanho máximo do Y",
+  "config.novaxlights.flashlight_change_color": "Pode mudar a cor da lanterna",
+  "config.novaxlights.flashlight_brightness": "Brilho da Lanterna",
+  "config.novaxlights.flashlight_distance": "Distância da Lanterna",
+  "config.novaxlights.flashlight_angle": "Ângulo da Lanterna",
+  "config.novaxlights.flashlight_size": "Tamanho da Lanterna",
+  "config.novaxlights.flashlight_drain_rate": "Consumo da Lanterna",
+  "config.novaxlights.flashlight_damage": "Desgaste da Lanterna",
 
   "config.novaxlights.max_distance.tooltip": "O raio máximo da luz.\nMínimo: 1.",
   "config.novaxlights.max_angle.tooltip": "O ângulo máximo da luz.\nMínimo: 0.1.",
   "config.novaxlights.angle_editor_value.tooltip": "O valor alterado pelo Editor de Ângulo.\nMínimo: 0.001.",
+  "config.novaxlights.max_brightness.tooltip": "A intensidade máxima da luz.\n Mínimo: 0.",
+  "config.novaxlights.max_x_size.tooltip": "Tamanho máximo do eixo X da luz.\n Mínimo: 0.",
+  "config.novaxlights.max_y_size.tooltip": "Tamanho máximo do eixo Y da luz.\n Mínimo: 0.",
+  "config.novaxlights.flashlight_change_color.tooltip": "Se o player pode trocar a cor da lanterna.",
+  "config.novaxlights.flashlight_brightness.tooltip": "O Brilho da lanterna.",
+  "config.novaxlights.flashlight_distance.tooltip": "A distância da lanterna.",
+  "config.novaxlights.flashlight_angle.tooltip": "O ângulo da lanterna.",
+  "config.novaxlights.flashlight_size.tooltip": "O tamanho da lanterna.",
+  "config.novaxlights.flashlight_drain_rate.tooltip": "Tempo entre danos de durabilidade enquanto a lanterna está ligada.",
+  "config.novaxlights.flashlight_damage.tooltip": "Dano à durabilidade da lanterna. Coloque 0 para desativar.",
 
+  "gui.novaxlights.distance": "Distância",
+  "gui.novaxlights.brightness": "Intensidade",
 
   "tooltip.novaxlights.point_light_block.tooltip": "\n§8Luz Circular.\n§8Clique com um corante para pintar a luz.\n§8Use o Light Editor para mudar o raio.\n§8A intensidade da luz muda de acordo com\n§8o sinal de redstone.\n",
   "tooltip.novaxlights.area_light_block.tooltip": "\n§8Luz Ângular.\n§8Clique com um corante para pintar a luz.\n§8Use o Light Editor para mudar o raio.\n§8A intensidade da luz muda de acordo com\n§8o sinal de redstone.\n",
+  "tooltip.novaxlights.light_editor.tooltip": "§8Clique em um bloco de luz para mudar suas propriedades.",
   "tooltip.novaxlights.point_light_editor.tooltip": "\n§8Mão Primária: Aumenta o raio da luz.\n§8Mão Secundária: Diminui o raio da luz.\n",
-  "tooltip.novaxlights.area_light_editor.tooltip": "\n§8Mão Primária: Aumenta o ângulo da luz.\n§8Mão Secundária: Diminui o ângulo da luz.\n"
+  "tooltip.novaxlights.area_light_editor.tooltip": "\n§8Mão Primária: Aumenta o ângulo da luz.\n§8Mão Secundária: Diminui o ângulo da luz.\n",
+  "tooltip.novaxlights.flashlight.tooltip": "§8Clique agachado para abrir o menu para mudar a cor."
 }

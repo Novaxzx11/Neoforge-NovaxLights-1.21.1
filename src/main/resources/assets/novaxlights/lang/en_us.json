@@ -1,21 +1,45 @@
 {
   "block.novaxlights.point_light_block": "Point Light Block",
   "block.novaxlights.area_light_block": "Area Light Block",
-  "item.novaxlights.point_light_editor": "Radius Editor",
-  "item.novaxlights.area_light_editor": "Angle Editor",
+  "item.novaxlights.light_editor": "Light Editor",
+  "item.novaxlights.flashlight": "Flashlight",
 
   "creativetab.novaxlights.novax_lights": "Novax Lights",
 
   "config.novaxlights.max_distance": "Max Distance",
   "config.novaxlights.max_angle": "Max Angle",
-  "config.novaxlights.angle_editor_value": "Angle Editor Value",
+  "config.novaxlights.max_brightness": "Max Brightness",
+  "config.novaxlights.max_x_size": "Max X Size",
+  "config.novaxlights.max_y_size": "Max Y Size",
+  "config.novaxlights.flashlight_change_color": "Can Change Flashlight Color",
+  "config.novaxlights.flashlight_brightness": "Flashlight Brightness",
+  "config.novaxlights.flashlight_distance": "Flashlight Distance",
+  "config.novaxlights.flashlight_angle": "Flashlight Angle",
+  "config.novaxlights.flashlight_size": "Flashlight Size",
+  "config.novaxlights.flashlight_drain_rate": "Flashlight Drain Rate",
+  "config.novaxlights.flashlight_damage": "Flashlight Damage",
 
   "config.novaxlights.max_distance.tooltip": "The maximum radius of the light.\nMinimum: 1.",
   "config.novaxlights.max_angle.tooltip": "The maximum angle of the light.\nMinimum: 0.1.",
   "config.novaxlights.angle_editor_value.tooltip": "The value changed by the Angle Editor.\nMinimum: 0.001.",
+  "config.novaxlights.max_brightness.tooltip": "The maximum brightness of the light.\n Minimum: 0.",
+  "config.novaxlights.max_x_size.tooltip": "The maximum X size of the light.\n Minimum: 0.",
+  "config.novaxlights.max_y_size.tooltip": "The maximum Y size of the light.\n Minimum: 0.",
+  "config.novaxlights.flashlight_change_color.tooltip": "If the player can change the color of the flashlight.",
+  "config.novaxlights.flashlight_brightness.tooltip": "The brightness of the flashlight.",
+  "config.novaxlights.flashlight_distance.tooltip": "The distance of the flashlight.",
+  "config.novaxlights.flashlight_angle.tooltip": "The angle of the flashlight.",
+  "config.novaxlights.flashlight_size.tooltip": "The size of the flashlight.",
+  "config.novaxlights.flashlight_drain_rate.tooltip": "Ticks between durability drain while the flashlight is on.",
+  "config.novaxlights.flashlight_damage.tooltip": "Durability damage dealt to the flashlight. Set to 0 to disable.",
+
+  "gui.novaxlights.distance": "Distance",
+  "gui.novaxlights.brightness": "Intensity",
 
   "tooltip.novaxlights.point_light_block.tooltip": "\n§8Circular light.\n§8Click with a dye to change the color of the light.\n§8Use the Light Editor to change the radius of the light.\n§8The intensity of the light is based on the redstone signal.\n",
   "tooltip.novaxlights.area_light_block.tooltip": "\n§8Angled light.\n§8Click with a dye to change the color of the light.\n§8Use the Light Editor to change the radius of the light.\n§8The intensity of the light is based on the redstone signal.\n",
+  "tooltip.novaxlights.light_editor.tooltip": "§8Click on a light block to change its properties.",
   "tooltip.novaxlights.point_light_editor.tooltip": "\n§8Primary hand: Increase the radius of the light.\n§8Secondary Hand: Decrease the radius of the light.\n",
-  "tooltip.novaxlights.area_light_editor.tooltip": "\n§8Primary hand: Increase the angle of the light.\n§8Secondary Hand: Decrease the angle of the light.\n"
+  "tooltip.novaxlights.area_light_editor.tooltip": "\n§8Primary hand: Increase the angle of the light.\n§8Secondary Hand: Decrease the angle of the light.\n",
+  "tooltip.novaxlights.flashlight.tooltip": "§8Shift click to open the gui to change the color."
 }

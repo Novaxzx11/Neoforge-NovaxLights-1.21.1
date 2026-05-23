@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "novaxlights:block/light_block"
+    "all": "novaxlights:block/point_light_block"
   }
 }

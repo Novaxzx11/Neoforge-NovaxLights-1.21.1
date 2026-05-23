@@ -1,12 +1,16 @@
 package com.novaxzx.novaxlights;
 
-import net.minecraft.client.Minecraft;
+import com.novaxzx.novaxlights.client.FlashLightHandler;
+import com.novaxzx.novaxlights.screen.ModMenuTypes;
+import com.novaxzx.novaxlights.screen.custom.FlashlightScreen;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
@@ -26,4 +30,10 @@ public class NovaxLightsClient {
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
     }
+
+    @SubscribeEvent
+    public static void onClientTick(ClientTickEvent.Post event) {
+        FlashLightHandler.clientTick();
+    }
+
 }
